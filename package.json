@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "npm test"
+    "test": "nyc --silent mocha --recursive"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "cucumber": "^6.0.7",
+    "express": "^4.18.2",
+    "hamjest": "^3.7.3",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0"
   }
 }
